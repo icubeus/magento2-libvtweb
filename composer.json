@@ -4,6 +4,7 @@
     "homepage": "https://veritrans.co.id",
     "version": "1.0.1",
     "type": "library",
+     "minimum-stability": "dev",
     "license":"GPL-3.0",
     "authors": [
         {
@@ -27,5 +28,11 @@
     },
     "autoload": {
         "classmap": [""]
+    },
+    "repositories": {
+        "icubeus-advancerate": {
+            "type": "git",
+            "url": "git@github.com:icubeus/magento2-libvtweb.git"
+        }
     }
 }
